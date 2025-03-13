@@ -1,0 +1,2315 @@
+Summary for [Node.js Tutorial - 1 - Introduction](https://www.youtube.com/watch?v=LAUi8pPlcUM)
+
+"Node.js Tutorial - 1 - Introduction"
+
+Syncfusion offers a wide range of UI components for various platforms.
+- Syncfusion provides over 1,700 UI components for Blazer, Angular, React, JavaScript, Flutter, .NET Maui, and classic platforms like Windows Forms, Win UI, and Xamarin.
+- They are also known for their powerful document processing libraries and offer a community license program for free access to their complete component suite.
+
+Node.js is an open source, cross-platform JavaScript runtime environment.
+- Node.js is open source, allowing sharing and modification of its source code.
+- It is a cross-platform JavaScript runtime environment.
+
+Node.js is a JavaScript runtime environment for Mac, Windows, and Linux
+- Node.js allows building end-to-end JavaScript applications
+- Major companies like LinkedIn, Netflix, PayPal have migrated to Node.js from other backend technologies
+
+Node.js is valuable for full stack development and has strong community support.
+- Learning Node.js can help front-end devs get closer to landing a dream job.
+- Node.js has a stable and supportive community, making it a valuable skill to learn.
+
+Understanding JavaScript runtime environment and Node.js features
+- Section 2: Understanding and using modules in Node.js
+- Section 3: Learning about core built-in modules in Node.js and their practical use
+
+Learn about npm and node package manager
+- npm is essential for building medium to large-scale apps with Node.js
+- We will see how to use Node.js to build a command-line interface tool
+
+Node.js is used for building web applications using frameworks like Express.js.
+- Core concepts of Node.js include building web applications using Express.js, defining API endpoints, connecting to databases, and adding authentication.
+- To understand Express.js, it is important to first know the concepts of Node.js.
+
+Prerequisites for learning Node.js and Express.js include modern JavaScript.
+- A crash course on fundamentals of JavaScript, advanced topics in JavaScript, and important concepts in es2015 and above is recommended for beginners.
+- The first section will cover important topics to understand Node.js.
+
+---
+
+Summary for [Node.js Tutorial - 2 - ECMAScript](https://www.youtube.com/watch?v=HXpPKhWOkAs)
+
+Section one of a series focuses on understanding the definition of node.js, JavaScript runtime environment, and ECMAScript.
+
+Understanding node.js and its definition
+- Definition of node.js: JavaScript runtime environment
+- Foundation concepts and terminology
+
+Netscape released the Mosaic user interface in 1994 and later developed Netscape Navigator.
+- The Mosaic user interface was released in 1994.
+- Netscape Navigator was a more polished browser released by Netscape.
+- Netscape created JavaScript in 1995 to address the lack of interactivity in web pages.
+
+JavaScript fundamentally changed the user experience of the web
+- Java was popular at the time
+- Microsoft debuted their browser, Internet Explorer
+
+JavaScript implementation differences made websites work well in only one browser
+- JScript was an alternative to JavaScript that filled the same use case
+- Developers faced difficulties making websites work well in both browsers
+
+Ecma International is an industry association dedicated to the standardization of information and communication systems.
+- Netscape wanted a standard specification that all browser vendors could conform to, to keep implementations consistent across browsers.
+- For JavaScript, the standard is called Eggman 262 and the committee that works on ik1262 is called technical.
+
+ECMAScript is the official standard language, while JavaScript is used in practice.
+- Oracle owns the trademark for the term JavaScript.
+- There have been multiple versions of ECMAScript released, with ES2015 (ES6) being a notable one.
+
+JavaScript is a prerequisite for developing with JavaScript features
+- Although ecmascript and JavaScript are technically not the same, the two words are often used interchangeably.
+- Whenever you see the word ecmascript, you can think of it as JavaScript.
+
+JavaScript is a language that implements ecmascript
+- ecmascript is the specification for JavaScript
+- JavaScript builds on top of ecmascript
+- ecmascript is the language we are familiar with
+- The next video will discuss Chrome's V8 engine
+
+---
+
+Summary for [Node.js Tutorial - 3 - Chrome's V8 Engine](https://www.youtube.com/watch?v=2mWb7j1A3c8)
+
+"Understanding Chrome's V8 Engine for JavaScript Execution in Node.js"
+
+Chrome's V8 Engine converts JavaScript code into machine code.
+- JavaScript code cannot be understood by the computer, so a JavaScript engine is needed to convert it into machine code.
+- JavaScript engines are developed by web browser vendors and can execute JavaScript code.
+
+V8 engine is developed by Google for Chrome
+- V8 is the open source JavaScript engine
+- It is what sits at the core of node.js
+
+Introduction to V8 engine on v8.dev
+- Accessing information related to V8 engine on v8.dev
+- Understanding V8 as Google's open source JavaScript engine
+
+V8 implements ECMAScript as specified in ECMA 262.
+- ECMA 262 is the standard language specification.
+- ECMAScript is the language that implements ECMA 262.
+
+V8 engine is written in C++ and can be embedded into any C++ application.
+- V8 can run stand alone or be embedded into a C++ application to execute JavaScript.
+- The ability to embed V8 into a program helped in the creation of node.js.
+
+V8 engine allows adding new features to JavaScript
+- Using C++, you can write code that gets executed when a user writes JavaScript code, adding new features to JavaScript itself.
+- C++ is great for lower-level operations like file handling, database connections, and network operations, by embedding V8 into your own C++ program, you have the power to add all of that functionality in JavaScript.
+
+JavaScript engine executes JavaScript code
+- Google created V8 in 2008
+- V8 written in C++, can be used independently or embedded into other C++ programs
+
+Node.js incorporates additional features not available in JavaScript
+- Node.js enables running ECMAScript and additional features
+- It includes features available in C++ but not in JavaScript
+
+---
+
+Summary for [Node.js Tutorial - 4 - JavaScript Runtime](https://www.youtube.com/watch?v=BFHUfKtoNkw)
+
+Understanding JavaScript Runtime in Browsers
+
+JavaScript runtime provides necessary components to run a program.
+- It is an environment that enables using and running JavaScript programs.
+- Every browser has a JavaScript engine to execute JavaScript code.
+
+Node.js is a component in the JavaScript runtime
+- JavaScript runtime consists of other components as well
+- JavaScript code is executed in Chrome's JavaScript runtime in the example given
+
+Node.js uses the V8 engine for executing JavaScript code.
+- The JavaScript engine is the V8 engine, which executes JavaScript code.
+- The engine consists of a call stack for executing JavaScript code and a heap for memory storage.
+
+Web APIs add extra functionality to the JavaScript engine
+- Web APIs refer to the DOM ERS such as set timeout and set interval
+- Promises, browser storage, etc. are examples of Web APIs which are not part of the JavaScript language itself
+
+Event Loop ensures async tasks are executed in the right order
+- Event Loop is a key part of the JavaScript runtime in the browser
+- It ensures that asynchronous tasks are handled efficiently and in the proper sequence
+
+JavaScript engine alone is not enough for web development.
+- It can execute ECMAScript, but JavaScript as we know it includes web APIs.
+- JavaScript requires ECMAScript plus web APIs for web development.
+
+JavaScript runtime is essential for executing code in a browser
+- ECMAScript and JavaScript engine are also crucial components for running JavaScript code
+- A browser requires more than just a JavaScript engine to execute JavaScript code, it also needs a JavaScript runtime
+
+Node.js runtime differs from the browser's runtime
+- Understanding the JavaScript runtime concept
+- Exploring the difference between Node.js and browser runtime
+
+---
+
+Summary for [Node.js Tutorial - 5 - What is Node.js?](https://www.youtube.com/watch?v=XQT6XiJt4DE)
+
+JavaScript runtime provides a cross-platform environment to run JavaScript programs outside the browser. Node.js has various use cases.
+
+Node.js is a JavaScript runtime environment.
+- Node.js is open source and its source code is publicly available for sharing and modification.
+- Node.js is cross-platform and works on Mac, Windows, and Linux.
+- Node.js provides all the necessary components to use and run a JavaScript program outside the browser.
+
+Node.js allows you to build complex and powerful applications.
+- Node.js was introduced in 2009 and allows JavaScript code to be run outside the browser.
+- You can build traditional websites, back-end services, real-time applications, streaming services, command line interface tools, and multiplayer games with Node.js.
+
+Node.js source code overview
+- The source code can be found on GitHub
+- There are three main folders to focus on: depths/dependencies, V8, and lib
+
+Node.js relies on V8 and libuv as major dependencies
+- V8 is responsible for understanding the JavaScript code we write
+- libuv provides Node.js access to the underlying operating system features such as file system and networking
+
+Node.js brings C++ features to JavaScript
+- C++ was designed to handle low-level functionality like file systems and networking, which JavaScript was not designed for
+- Node.js runtime consists of C++ features that provide file system handling and networking capabilities
+- JavaScript developers can access these C++ features through Node.js
+
+The lib folder contains JavaScript code for easy access to C plus features.
+- fs.js is used to access the file system and relies on libuv.
+- The lib folder also contains utility functions for coding with node.js.
+- The standard library of JavaScript code is a component of the node.js runtime.
+
+Node.js is an open source cross-platform JavaScript runtime environment.
+- Node.js is not a language or a framework, but a runtime.
+- It can execute JavaScript code outside of a browser.
+- It can execute both the standard ECMAScript language and new features made available through C++ bindings using the V8 engine.
+- From a code point of view, Node.js consists of C++ code and JavaScript.
+
+Introduction to Node.js
+- Node.js provides features and JavaScript files for easier consumption.
+- Node.js offers common utilities and some C plus features.
+- The tutorial is focused on providing a visual and code representation of Node.js.
+- The next video will cover writing a hello world program with Node.js.
+
+---
+
+Summary for [Node.js Tutorial - 7 - Browser vs Node.js](https://www.youtube.com/watch?v=sl-5haKNXGE)
+
+Title: JavaScript Environment Differences: Browser vs Node.js
+
+Running JavaScript code outside the browser with Node.js
+- Node.js allows executing JavaScript code outside the browser environment.
+- Despite writing JavaScript in both cases, there are key differences to be aware of.
+
+Browser and Node.js have different environments
+- Browsers interact with DOM and web platform APIs like cookies
+- Node.js does not have DOM or other browser objects
+
+Node.js provides APIs not available in the browser.
+- Node.js provides file system access functionality which is not available in the browser.
+- Another noteworthy difference is that Node.js has additional APIs and modules not available in the browser.
+
+Node.js allows writing modern JavaScript features
+- Node.js supports modern ES6, ES7, ES8, and ES9 features
+- In contrast, browsers may not support all the modern JavaScript features
+
+Node.js vs Browser JavaScript
+- Browser choice affects our work with Internet Explorer
+- Differences between writing JavaScript with node versus browser
+
+Understanding ECMAScript, Chrome's V8 engine, and JavaScript runtime.
+- ECMAScript, Chrome's V8 engine, and JavaScript runtime are essential concepts in Node.js development.
+- These concepts form the foundation for understanding Node.js and its capabilities.
+
+Visual and code representation of executing JavaScript program outside the browser
+- Node.js allows executing JavaScript outside the browser environment
+- Differences between browser JavaScript runtime and Node.js
+
+Introduction to modules in Node.js
+- Node.js allows you to work with modules one at a time
+- The next section will cover all about modules
+
+---
+
+Summary for [Node.js Tutorial - 9 - Local Modules](https://www.youtube.com/watch?v=4gWoKrwGui4)
+
+Title: Node.js Tutorial - Working with Local Modules
+
+Local modules are modules created and used in the application
+- Index.js contains a function to find the sum of two numbers using an arrow function
+- The function is called with 1 and 2 as arguments and the return value is assigned to the sum constant
+
+Creating separate modules in Node.js for better code management.
+- Splitting JavaScript programs into separate modules allows for easy code management as the application grows.
+- We will learn how to create a separate module for the add function in the same Node.js folder by creating a new file called add.js.
+
+Node.js modules are isolated by default
+- Each file in Node.js is a module
+- Node.js allows executing multiple files using 'node <filename>'
+
+Node.js adopted the common.js standard for module structure and sharing.
+- The require function is used to include the add module into index.js.
+- The path to the module is passed in as a string using the require function.
+
+Understanding the execution order of local modules in Node.js
+- The 'required' function loads the add module into index.js and its code gets executed by the V8 engine
+- Once ad.js module code has been executed, the remaining code in index.js is executed
+
+Debug and run Node.js programs in debug mode.
+- Place a breakpoint in index.js to start debugging.
+- Use the run and debug button to start the program in debug mode.
+
+Node.js can automatically append .js extension when requiring JavaScript files
+- Control flow with modules can be observed using console logs
+- Ignoring .js file extension is a common practice in Node.js
+
+Loading and executing modules with require function
+- The require function is used to load a module into another file
+- It is possible to expose certain functionality from the module while keeping the rest private
+
+---
+
+Summary for [Node.js Tutorial - 11 - Module Scope](https://www.youtube.com/watch?v=RR5zEGU7TqY)
+
+Title: Understanding Module Scope in Node.js through Practical Examples
+
+Understanding module scope in Node.js
+- Creating new modules in Node.js
+- Defining constants within modules
+
+Using modules to require and use in Node.js
+- Illustrating how to copy and paste and make changes in a new module file
+- Demonstrating the use of 'require' to include the created modules in the main file
+
+Console log output contains the same constant for superhero
+- When running 'node index', the console output is 'Batman' followed by 'Superman'.
+- The constant being logged is 'superhero', resulting in the output of 'Batman' and 'Superman'.
+
+Node.js modules have their own scope
+- Node.js achieves module scope with immediately invoked function expression (IIFE)
+- This is similar to the IIFE pattern in JavaScript
+
+Defining functions in Node.js
+- Functions are defined with parentheses and curly braces
+- To immediately invoke a function, add parentheses at the end
+
+Node.js uses function scope for modules
+- Modules in Node.js have their own private scope, allowing for encapsulation of variables and functions
+- Changing a value within one module will not affect the same value in other modules
+
+Node.js provides module scope for encapsulation and reusability
+- Node.js wraps module code with a function wrapper before execution
+- This ensures proper encapsulation and prevents conflicts
+
+Node.js modules are wrapped with an iffy for private scoping
+- Private scoping of code prevents conflicts with variable or function names
+- Consider subscribing to the channel for more tutorials
+
+---
+
+Summary for [Node.js Tutorial - 12 - Module Wrapper](https://www.youtube.com/watch?v=ce90lLhDI_Y)
+
+Module Wrapper and Parameters in Node.js
+
+Node.js modules are wrapped in an iffy to keep top level variables scoped to the module
+- Modules in Node.js get wrapped in an iffy to prevent top level variables from becoming global
+- The iffy that wraps every module contains five parameters that are important for the module's functioning
+
+Parameters and Arguments in Immediately Invoked Function Expression (IIFE)
+- Parameters can be added to each function in an IIFE, such as 'message' in this case.
+- Arguments can be passed to the IIFE functions, and the output can be observed.
+
+Understanding module wrapping in Node.js
+- Module code wrapped in immediately invoked function expression
+- Final code with parameters and wrapping each module code in IIFE with five parameters
+
+Accessing require and module.exports in Node.js
+- require and module.exports are specific to the module and are injected during execution by Node.js
+- Debugging code helps understand the representation of these parameters
+
+Node.js module wrapper contains useful parameters
+- The debug panel and the five parameters with 'this' keyword explained
+- Details about __dirname parameter and its use in Node.js
+
+Module wrapper provides built-in variables for module-level operations.
+- Underscore file name represents the file name of the current module and is accessed using __filename.
+- Require function is used to import a module by path, and module is a reference to the current module.
+
+File name and function call execution in Node.js
+- Function call and file name association in debugging process
+- Update of variables and understanding of different parameters
+
+Node.js wraps module code with a function containing five parameters
+- The five parameters are exports, require, module, __filename, and __dirname
+- They are available for use in every module
+
+---
+
+Summary for [Node.js Tutorial - 13 - Module Caching](https://www.youtube.com/watch?v=JQfOtwfDohY)
+
+Title: Understanding Module Caching in Node.js
+
+Learning about module caching
+- Module caching is an important concept in Node.js
+- Creating and exporting a class instance in Node.js for caching
+
+Using Module Caching in Node.js
+- Loading modules using require and setting values
+- Creating new instances and using module caching
+
+Module caching in Node.js
+- Node.js caches required modules for subsequent loading
+- This can lead to unexpected results when working with instances of the same module
+
+Module caching in Node.js helps in reusing loaded modules for better performance.
+- When a module is loaded and cached, Node.js remembers it and reuses it when required again, improving performance.
+- Module caching ensures that the same object is reused across different files, enhancing overall performance.
+
+Understand how caching works
+- Node.js uses caching to store required modules in memory for faster performance.
+- The cache is updated when modules are required and can improve application performance.
+
+Module caching in Node.js
+- Instances of a module are cached in Node.js
+- Updating property values reuses the cached instance
+
+Node.js reuses cached modules to improve performance.
+- Module caching allows Node.js to reuse already loaded modules instead of parsing them again for better performance.
+- To create separate instances of a module, export the class itself instead of an instance, and then import and use the class in other files.
+
+Demonstrating module caching in Node.js
+- Shows how to pass and retrieve values using module caching
+- Emphasizes the importance of correctly importing and exporting modules to avoid unexpected bugs
+
+---
+
+Summary for [Node.js Tutorial - 14 - Import Export Patterns](https://www.youtube.com/watch?v=F_GmxjP80so)
+
+Title: Node.js Import Export Patterns Tutorial - Learn Different Module Import/Export Patterns Easily with Codevolution
+
+Exploring import and export patterns in Node.js
+- Different patterns for importing and exporting modules in Node.js
+- Demonstration of exporting and importing a function in a new file called math.js
+
+Usage of module.exports and require in Node.js
+- In index.js, specify module.exports as add and use const add = require('./math') to console log the result of add(2, 3) which will output 5.
+- The second pattern involves directly assigning the arrow function to module.exports.
+
+Using import and export patterns in Node.js
+- To export a single variable or function, use 'module.exports'
+- To export multiple variables or functions, set them individually and then export them
+
+Using module.exports to export objects and functions in Node.js
+- Explanation of setting properties like add and subtract to the add function and the subtract function
+- Utilizing ES2015 features to specify properties directly as add and subtract
+
+Demonstrating object imports and destructuring in Node.js
+- Invoking math.add(3) and math.subtract(2, 3) in the terminal
+- Exploring destructuring as an ES2015 feature when dealing with object Imports
+
+Import and export patterns in Node.js
+- Demonstration of invoking add and subtract functions on the math object
+- Defining functions and assigning them to properties on module.exports
+
+Replacing module.exports with exports
+- exports is a reference to module.exports
+- We can replace module.exports with just exports for our fifth pattern
+
+Prefer module.exports over just exports
+- Module.exports is more consistent and explicit
+- Explained in detail in the next video
+
+---
+
+Summary for [Node.js Tutorial - 16 - ES Modules](https://www.youtube.com/watch?v=g98XlFOiXz0)
+
+Title: Understanding ES Modules in Node.js
+
+Node.js introduces ES modules as a new module system.
+- Common.js treats each file as a module, where variables, functions, and classes are not accessible by default to other files.
+- To export parts of code, module.exports object or the exports shortcut are used; for importing code, the require function is used.
+
+ES Modules introduced a standardized module system in JavaScript
+- Node.js previously defaulted to CommonJS but now supports ES modules
+- ES modules became fully implemented in Node.js with version 14
+
+ES modules use .mjs file extension
+- ES modules use .mjs instead of .js for file extension
+- We can export and import variables or functions using ES modules
+
+Different patterns of using ES Modules in Node.js
+- Second pattern: Exporting default on the same line as the arrow function
+- Third pattern: Exporting multiple variables or functions
+
+Exporting and importing objects with ES Modules
+- ES2015 allows default export and named exports
+- Can use shorthand for key-value pairs and destructuring in imports
+
+ES modules support both default exports and named exports.
+- Named exports require the variable or function name to match while importing.
+- Default exports can be defined with the export keyword at the start of the function or variable.
+
+Different ways to import and use ES Modules in Node.js
+- Import with 'import * as math' to access all exports as an object and destructure specific functions
+- Import with named exports using curly braces for specific functions, demonstrating destructuring and terminal output
+
+ES Modules were introduced with ES2015 and Node.js provides stable support since version 14.
+- With ES Modules, instead of module.exports, we use the export keyword. It can be default or named.
+- Importing the exported variables or functions using the import keyword. The import name must be the same for named exports.
+
+---
+
+Summary for [Node.js Tutorial - 17 - Importing JSON and Watch Mode](https://www.youtube.com/watch?v=Es7SzBBc6qE)
+
+Title: Importing JSON and Using Watch Mode in Node.js - Codevolution Tutorial
+
+Importing JSON data as a module in Node.js
+- JSON stands for JavaScript Object Notation and is commonly used with web servers.
+- JSON data is similar to a JavaScript object, but the keys are also wrapped with quotes.
+
+Loading JSON data in Node.js
+- Using require() to load JSON file in index.js
+- Logging loaded data to the console
+
+Importing JSON in Node.js
+- Node.js can parse JSON files into JavaScript objects
+- You can access data from JSON files and ignore the .json extension when importing
+
+Always use the extension when importing JSON files.
+- Using the .json extension when importing files prevents issues with file recognition.
+- Watch mode in Node.js allows for real-time output updates without having to manually rerun the code.
+
+Watch mode automatically restarts process on code changes
+- Running in watch mode restarts the process when there is a change in the imported code
+- To run index.js in watch mode, use the command 'node --watch index.js'
+
+Watch mode constantly monitors for changes and restarts the process
+- Watch mode is helpful for modifying file contents and verifying output
+- It's an improvement to developer experience and a quick detour in the series
+
+Local modules in node.js
+- Understanding the need and types of modules in node.js
+- Focus on common JS module format and required function for importing and exporting modules
+
+Node.js module importing and JSON usage
+- Module caching and importing/exporting patterns discussed
+- Introduction to importing JSON data and watch mode
+
+---
+
+Summary for [Node.js Tutorials - 18 - Built-in Modules](https://www.youtube.com/watch?v=kRG8QpOKZE4)
+
+Title: Node.js Built-in Modules Introduction
+
+Third section of Node.js course for beginners.
+- Previous mention of three types of something.
+- Some reference to earlier videos.
+
+Node.js supports local and built-in modules
+- Local modules are modules we create ourselves
+- Built-in modules are pre-existing modules within Node.js
+
+Built-in modules are pre-existing modules in Node.js
+- They can be used without installing any extra packages
+- Examples of built-in modules include fs, http, and os
+
+Core modules are available by default in Node.js
+- You need to import the module before using it
+
+Node.js has several useful built-in modules
+- The video focuses on five modules that are particularly useful for building applications
+- These modules will provide important functionalities for developers
+
+Node.js has built-in modules for various functionalities.
+- The path module is relatively easy to understand with examples.
+- The remaining four built-in modules are more complex and require detailed understanding.
+
+Re-watch videos if needed
+- Encouragement to re-watch videos for better understanding
+- Availability of source code for built-in modules
+
+The next video will cover the path module.
+
+---
+
+Summary for [Node.js Tutorial - 19 - Path Module](https://www.youtube.com/watch?v=p995SdRXw_E)
+
+Title: Node.js Path Module - Working with Files and Directory Paths
+
+Node.js provides built-in modules to help build applications.
+- The path module is the first built-in module we are discussing.
+- It provides utilities for working with files and directory paths, and can be imported using the require function.
+
+Node.js provides convenience variables for file and directory names.
+- The __filename variable represents the full path to the file index.js.
+- The __dirname variable represents the full path to the folder where index.js is located.
+
+Node.js path module methods
+- The EXT name method retains the extension of the path.
+- The parse method returns an object with significant properties of the path.
+
+path.format, path.parse and path.isAbsolute methods in Node.js
+- path.format is used to format a path object into a string.
+- path.parse is used to parse a path string into an object.
+
+Path Module in Node.js helps in path manipulation and normalization.
+- Node.js path.join method normalizes the resulting path by removing any duplicate or unnecessary separators.
+- Using forward slash for Mac and backslash for Windows in path manipulation.
+
+The resolve method gives the absolute path by joining path segments.
+- The resolve method takes path segments and returns an absolute path.
+- The output of the resolve method is dependent on the arguments passed.
+
+The path module manipulates file paths and names
+- Using `path.join()` to add an absolute path to the current folder and join the arguments
+- The result changes based on the presence of forward slashes and the sequence of path
+
+The node protocol helps in clear identification and conflict avoidance for built-in modules.
+- Node protocol makes it clear that the import is a node.js built-in module, which beginners may not always realize.
+- It also makes the import identifier a valid absolute URL, and avoids conflicts for future node.js built-in modules.
+
+---
+
+Summary for [Node.js Tutorial - 20 - Callback Pattern](https://www.youtube.com/watch?v=z03tYranyWs)
+
+Video Title: Understanding Node.js Callback Pattern in JavaScript
+
+Understanding the Callback pattern in node.js
+- Node.js uses the Callback pattern for asynchronous programming
+- In JavaScript, functions are first class objects, allowing them to be passed as arguments and returned as values
+
+Creating functions and passing functions as arguments
+- Defining a function called greet which accepts a name parameter and logs a greeting
+- Defining another function called greetVishwas which accepts another function as its argument and invokes it
+
+Understanding the callback pattern in Node.js
+- The concept of a function as an argument in a callback function
+- How the greet function with name parameter works
+
+Understanding callback functions and their importance.
+- A higher order function accepts a callback function and calls that callback function passing in the name constant.
+- A callback function is a function passed as an argument to another function and is needed for specific purposes which can be categorized into two.
+
+Callbacks are executed immediately in synchronous callbacks
+- Synchronous callbacks get executed immediately when the control goes inside the higher order function
+- Callback functions passed to methods like sort, map, or filter define the logic for the higher order function to apply
+
+Async callbacks are used to continue code execution after asynchronous operations
+- Callbacks are used to delay the execution of a function until a particular time or event has occurred in the async world
+- Most modules in node.js have an asynchronous nature to prevent blocking of execution
+
+JavaScript executes Callback function only when event occurs.
+- Callback function is delayed until the user clicks on the button
+- Execution of Callback function is triggered by a specific event, like click event
+
+Callback pattern delays function execution until data is loaded.
+- Node.js popularizes callback style of programming.
+- Callbacks allow delaying function execution until a specific time or event.
+
+---
+
+Summary for [Node.js Tutorial - 21 - Events Module](https://www.youtube.com/watch?v=Su0-Y9coU3s)
+
+"Node.js Tutorial: Understanding the Events Module"
+
+Events module in Node.js allows working with events and custom event handling
+- Events module enables dispatching custom events and non-blocking response
+- Events are similar to everyday life occurrences that we can respond to
+
+Events in Node.js mimic day-to-day scenarios
+- Order being placed is the event
+- Baking a pizza is a response to that event
+
+The Events module in Node.js encapsulates functionality to emit and respond to events.
+- The require function is used to import the event emitter class from the events module.
+- The events module returns a class called event emitter, which is encapsulating functionality to emit events and respond to events.
+
+Register a listener for an event using the on method.
+- The on method accepts two parameters: event name and listener.
+- The listener is a callback function that gets executed when the corresponding event is emitted.
+
+Using the events module to dispatch and respond to custom events.
+- Emitting events and passing data to the listener.
+- Automatically passing arguments to the listener function in node.js.
+
+Event module in Node.js allows registering multiple listeners for the same event
+- You can register multiple listeners for the same event using emitter.on() method
+- Listeners can perform different actions based on the event parameters
+
+Event-driven programming in Node.js delays function execution until a certain event occurs.
+- Emitting an event allows us to do work before the event occurs in the system.
+- The events module in Node.js is built-in and used to work with events.
+
+The Events Module returns an event emitter class
+- We can instantiate the class to create an emitter object
+- We can register event listeners and emit events using the emitter object
+
+---
+
+Summary for [Node.js Tutorial - 22 - Extending from EventEmitter](https://www.youtube.com/watch?v=UK2uQjgsoI4)
+
+"Node.js Tutorial - Extending EventEmitter for Event-Driven Architecture"
+
+Creating a custom module extending from EventEmitter
+- Using the event emitter class to emit and respond to events
+- Creating a new module 'pizzashop.js' with a PizzaShop class and constructor
+
+Using EventEmitter to extend functionality in Node.js
+- We increment order number and display order number to view the current order number
+- We export the class for use in other modules, import the class, create an instance, and invoke order and display order methods
+
+Inheriting event-driven architecture using EventEmitter
+- Extending classes in JavaScript to inherit functionality from another class
+- Using EventEmitter to handle orders in a pizza shop using event-driven architecture
+
+Inheriting from EventEmitter in Node.js
+- Use 'extends' keyword to inherit from EventEmitter
+- Class-based inheritance introduced in ES2015
+
+Node.js uses 'this' keyword to refer to the emitted object instead of a separate emitter object.
+- When emitting events, 'this' keyword is used with 'emit' to refer to the emitted object.
+- Listeners can be attached to events using 'on' method in Node.js.
+
+Creating a separate module for serving drinks
+- Registering an event listener for serving drinks
+- Creating a new class DrinkMachine with a method to serve drinks
+
+Using events to tie together different modules without tightly coupling them.
+- Creating a new instance of Drink Machine using require
+- Using events to pass and receive orders and log statements
+
+Pizza shop can extend from EventEmitter
+- Allows emitting and reacting to custom events
+- Built-in modules like FS, streams, and HTTP also extend from EventEmitter class
+
+---
+
+Summary for [Node.js Tutorial - 23 - Character Sets and Encoding](https://www.youtube.com/watch?v=0LYXkL0pr1M)
+
+"Understanding Character Sets and Encoding in Node.js"
+
+Node.js Tutorial covering character sets and encoding
+- Introduction to character sets and encoding
+- Explanation of storing and representing data in binary format
+
+Computers store and represent data in binary format.
+- Binary format consists of a collection of zeros and ones.
+- To work with data, a computer needs to convert it into binary representation using the base 2 numeric system.
+
+Computers represent characters in binary format
+- Numbers are not the only data type, strings are also frequently used
+- Computers convert characters to numbers and then to binary representation
+
+Characters are represented as numbers in computers
+- Computers convert characters to numeric representation
+- The numeric representation is called character code
+
+Character sets dictate numeric representation of characters.
+- Character sets are predefined lists of characters represented by numbers.
+- Popular character sets include Unicode and ASCII.
+
+Character encoding determines how numbers are represented in binary.
+- Character encoding specifies how a number in a character set is represented as binary data.
+- One example of a character encoding system is UTF-8, which determines how many bits to use to represent a number.
+
+UTF-8 encoding uses bytes to represent characters in binary
+- UTF-8 states that characters should be encoded in bytes, which are sets of eight bits.
+- For example, the number four is represented as five zeros followed by 100, and the character v is represented as 01010110.
+
+Computers store strings or characters in binary format.
+- Binary format is represented as 0s and 1s, with 1 byte or 8 bits per character.
+- Similar guidelines exist for encoding and storing images and videos in binary format.
+
+---
+
+Summary for [Node.js Tutorial - 24 - Streams and Buffers](https://www.youtube.com/watch?v=br8VB99qPzE)
+
+Title: Understanding Streams and Buffers in Node.js
+
+Streams are sequences of data moved over time
+- Streams in Node.js are processed in chunks as they arrive, instead of waiting for the entire data to be available
+- Examples of streams include data being moved over the Internet or transferred from one file to another within the same computer
+
+Streams help transfer data in chunks
+- Data is transferred in chunks, preventing unnecessary memory usage
+- Streams are a sequence of data moved over time, leading to the next topic of buffers
+
+Buffer acts as a waiting area for data
+- Buffer helps to manage data flow in scenarios like roller coaster
+- You cannot control the arrival pace of data, but you can decide when to process it
+
+Node.js uses buffers to process streaming data
+- Buffers are small areas maintained by Node.js to process streaming data
+- Buffers are used in familiar examples such as streaming videos online
+
+Node.js provides a global buffer feature for managing binary data.
+- Buffers are used to handle binary data and can be created using the Buffer class.
+- Character encoding, such as UTF-8, can be specified when creating a buffer.
+
+Buffers in Node.js contain raw binary data
+- Logging buffer dot to Json reveals the character codes for each character in a string
+- Node.js prints the hexadecimal representation of the binary data when logged to the console
+
+Understanding streams, buffers, and binary data representation in Node.js
+- Hexadecimal and binary representation of characters and their codes
+- Working with buffers in Node.js to manipulate and convert binary data
+
+Buffers have limited memory which can cause data loss
+- Node.js internally uses buffers when required
+- Understanding buffers forms a key foundation for learning any 
+
+---
+
+Summary for [Node.js Tutorial - 25 - Asynchronous JavaScript](https://www.youtube.com/watch?v=QvIC2z8ADtU)
+
+Title: Understanding Asynchronous JavaScript in Node.js
+
+Introduction to asynchronous JavaScript
+- Understanding the basics of JavaScript being a synchronous, blocking, single-threaded language
+- Importance of learning about asynchronous behavior in JavaScript for Node.js development
+
+JavaScript is synchronous and blocking
+- Code executes top down, one line at a time
+- Subsequent process won't start until former is completed
+
+JavaScript is single threaded
+- Executing intensive code without returning control can block the browser
+- Blocking prevents the browser from handling user input and other tasks
+
+JavaScript is asynchronous blocking single threaded language
+- JavaScript program can use to run a task and each thread can only do one task at a time
+- JavaScript has just the one thread called the main thread for executing any code
+
+Understanding asynchronous behavior in JavaScript
+- Data retrieval from the database can cause a delay in code execution
+- Asynchronous behavior is necessary to prevent errors in code execution
+
+JavaScript alone cannot handle asynchronous programming
+- Web browsers and Node.js provide additional tools for writing asynchronous code
+- They define functions and APIs to register asynchronous functions to be invoked on events
+
+Asynchronous JavaScript allows for non-blocking, multi-threaded behavior.
+- Asynchronous JavaScript enables code to perform multiple tasks simultaneously without blocking the main thread.
+- This behavior is essential for writing apps that are non-blocking and asynchronous, possible in front end with browser and backend with Node.js.
+
+Asynchronous JavaScript is fundamental to Node.js
+- Asynchronous programming does not block the main JavaScript thread
+- It is essential to how built-in module code is written
+
+---
+
+Summary for [Node.js Tutorial - 26 - fs Module](https://www.youtube.com/watch?v=Z_p1yFGS0Ak)
+
+"Node.js File System Module: Reading and Understanding File Contents"
+
+Node.js fs module allows working with file system
+- Use require function to import built-in module
+- Access properties and methods, eg. read file sync
+
+Using fs module to read file contents and understanding buffer and encoding
+- Capturing file contents, logging to console, and viewing in human readable format using utf-8 encoding
+- Understanding the synchronous nature of 'readFileSync' method and its relevance for essential code
+
+Node.js provides asynchronous file reading using fs module
+- Node.js's asynchronous behavior prevents blocking the main thread and ensures better performance
+- fs module's read file method takes file path as the first argument and a callback function as the second argument
+
+Understanding error-first callback pattern in Node.js
+- The first argument in the callback is the error
+- Log the error or the data based on the presence of an error
+
+Node.js uses callback functions to handle file operations asynchronously.
+- Node.js executes the callback function after reading a file, allowing the rest of the code to continue executing.
+- Node.js provides both synchronous and asynchronous methods for file operations, such as reading and writing files.
+
+Introduction to FS module and writing to a file in Node.js
+- Running 'node index' creates a 'greet.txt' file with 'hello world' as its contents
+- Using 'FS.writeFile' asynchronously writes 'hello vishwas' to the file and demonstrates error handling
+
+Node.js uses the fs module to work with the file system.
+- Using the append flag allows adding content to a file without overwriting existing content.
+- Reading files can take more time than writing, and understanding asynchronous code can be challenging.
+
+Node.js allows non-blocking file operations for efficient program execution.
+- Callbacks are used to execute code after file reading is completed.
+- Node.js provides promise-based version of fs module for handling file operations.
+
+---
+
+Summary for [Node.js Tutorial - 27 - fs Promise Module](https://www.youtube.com/watch?v=wG2-vF4QyZ0)
+
+"Using fs Promise Module for Asynchronous File Operations in Node.js"
+
+Introduction to fs Promise Module
+- The fs module allows working with the file system.
+- There is a promise-based version of the fs module for more recent code bases, especially when using ES modules.
+
+Import the fs Promise module and read a file
+- Use 'const FS = require('node FS/promises')' to import the module
+- Read a file using 'FS.readFile(file.txt, 'utf-8')' method
+
+Node.js fs Promise Module covers then and catch blocks
+- then block is called when the promise is successful and gives access to the data which can be logged to the console
+- catch block is called when the promise rejects with an error, giving access to the error which can be logged to the console
+
+Node.js fs Promise Module enables asynchronous file operations
+- Using fs Promise Module, code works as expected
+- Adding log statements proves the asynchronous nature of the fs Promise Module
+
+Node.js allows for asynchronous file operations, preventing app freezing.
+- Node sets aside file read to allow further code execution.
+- Promise based FS module can be used with async await for asynchronous file handling.
+
+Using async/await to handle file operations in Node.js
+- Using async function instead of top-level await in modules
+- Implementing try-catch blocks to handle errors within the async function
+
+Handling errors and file reading in Node.js using fs Promise module
+- Errors are caught and logged in the catch block
+- File reading is done using the read file async function
+
+Promise based FS module recommended for performance
+- Performance required for execution time and memory allocation
+- Proceed to understand about streams and pipes in node.js
+
+---
+
+Summary for [Node.js Tutorial - 28 - Streams](https://www.youtube.com/watch?v=qnzC6vpBuxw)
+
+Understanding Node.js Streams: How to Efficiently Transfer Data Between Files with the FS Module
+
+Introduction to streams in Node.js using the fs module.
+- Streams represent a sequence of data transferred over time, allowing for efficient data handling.
+- Unlike waiting for the complete data, streams process data in chunks, improving performance during file transfers.
+
+Node.js streams optimize memory by transferring data in chunks.
+- Streams prevent unnecessary memory usage by handling data incrementally instead of loading entire files at once.
+- The fs module utilizes streams to efficiently read and write data, enabling better performance in file operations.
+
+Creating readable and writable streams in Node.js using the fs module.
+- Import the fs module in index.js to access file system functionalities.
+- Use fs.createReadStream to read data in chunks from a specified file with the desired encoding.
+
+Introduction to writable streams and event handling in Node.js.
+- A writable stream is created using FS.createWriteStream, specifying the output file path.
+- Streams in Node.js are event emitters, allowing for event listeners such as 'data' to handle incoming data.
+
+Streams process data efficiently by handling chunks incrementally.
+- A callback function acts as a listener to receive chunks of data, which can be logged or processed.
+- The writable stream writes each chunk of data to 'file2.txt', demonstrating real-time data handling in Node.js.
+
+Streams handle data in customizable chunk sizes.
+- By default, streams use a buffer size of 64 kilobytes, but data can be read in smaller chunks.
+- Setting the high water mark to 2 allows reading data in chunks of 2 bytes, demonstrating stream flexibility.
+
+Streaming data significantly improves performance for large files.
+- When handling large files, streaming reduces time and memory usage compared to loading the entire file.
+- The fs module is one of many in Node.js that utilizes streams, with the HTTP module demonstrating readable and writable streams.
+
+Node.js streams enable efficient data processing in chunks.
+- Readable streams allow reading data from sources like files, while writable streams enable writing data to destinations.
+- Transform streams can modify data during read/write operations, enabling use cases like file compression and decompression.
+
+---
+
+Summary for [Node.js Tutorial - 29 - Pipes](https://www.youtube.com/watch?v=ej79ByltLOI)
+
+"Pipes in Node.js: Learn how to connect readable and writable streams for efficient data transfer"
+
+Node.js provides a simpler way to read and write file contents using pipes.
+- Previously, we learned about streams for reading and writing files.
+- We can create readable and writable streams to read from and write to files.
+
+A pipe in Node.js is used to read data from a source and write it to a destination.
+- A pipe in Node.js is similar to a pipe that connects a tank to a kitchen sink, where water is read from the tank and written to the sink.
+- It allows us to easily transfer data between readable and writable streams in a streaming fashion.
+
+The pipe method connects a readable stream to a writable stream
+- The pipe method is used on a readable stream to implement the functionality
+- By using the pipe method and passing in a writable stream, we can connect the two streams
+
+Pipes in Node.js enable chaining of streams
+- Pipe returns the destination stream
+- Destination stream must be readable, duplex, or a transform stream
+
+Node.js provides a built-in module called zlib for compression functionality.
+- The zlib module in Node.js allows us to use the gzip compression algorithm.
+- It provides compression functionality for the data.
+
+zlib is great because it has a built-in transform stream
+- const gzip is equal to zlib.dot create gzip
+- To create a readable stream, we can use readable stream.dot pipe gzip
+- The returned stream can be used with Dot pipe and passed in 212.18 213
+
+Chaining streams using the pipe method
+- Chaining allows moving data from a readable stream to a transform stream to a writable stream.
+- Understanding the concept of chaining with the pipe method is essential for this.
+
+Pipes are used to transfer data between two streams
+- This video introduces the concept of pipes in Node.js
+- Pipes can be used with built-in modules like HTTP
+
+---
+
+Summary for [Node.js Tutorial - 30 - HTTP Module](https://www.youtube.com/watch?v=3Z-pAgra-tw)
+
+Understanding the HTTP Module in Node.js: Creating Web Servers and Client-Server Communication Explained.
+
+Introduction to the HTTP module and web functionality.
+- Explains the basic mechanics of how web requests function when a URL is entered.
+- Covers the significance of the HTTP module in handling server-client communication.
+
+Understanding clients and servers in Internet architecture.
+- Clients are devices like computers and smartphones that request resources from servers.
+- Servers are powerful computers that store and serve data to multiple clients over the internet.
+
+Understanding the interaction between browsers and web servers.
+- Browsers are client devices that request web pages using URLs.
+- Web servers store and respond with copies of requested web pages.
+
+Understanding data transfer formats in the client-server model.
+- The client-server model emphasizes how data is exchanged between clients and servers.
+- Issues can arise if the server cannot interpret the client's request format.
+
+HTTP enables communication between clients and servers.
+- HTTP stands for Hypertext Transfer Protocol, establishing communication rules for the web.
+- Clients send HTTP requests to servers to initiate interactions and retrieve data.
+
+Node.js enables the creation of web servers leveraging OS networking features.
+- Node.js allows developers to handle HTTP requests and responses directly, facilitating server-side programming.
+- With its non-blocking I/O model, Node.js efficiently manages multiple connections, enhancing web application performance.
+
+Node.js enables asynchronous tasks for efficient web server development.
+- Asynchronous handling allows servers to manage multiple requests simultaneously, improving performance.
+- Node.js uses the built-in HTTP module to adhere to the HTTP protocol for web communication.
+
+Introduction to creating HTTP servers with Node.js.
+- Node.js allows for the creation of web servers that handle HTTP requests and responses.
+- The upcoming section will provide a practical example of server implementation using Node.js.
+
+---
+
+Summary for [Node.js Tutorial - 31 - Creating a Node Server](https://www.youtube.com/watch?v=x1cEbRIrOu4)
+
+Creating a Node Server
+
+Creating a Node server with the HTTP module
+- Import the HTTP module using 'require'
+- Use the createServer method to create the server and specify a callback function that handles the request and response objects.
+
+Understanding the request and response objects in Node.js
+- The request argument contains information about the incoming request
+- The response object is used to build and send the response back to the client
+
+Creating a Node Server
+- Create a server using the createServer method
+- Invoke the listen method to inform the server to listen to incoming requests on a specific port number (3000 in this case)
+
+Node server running on Port 3000 with a callback function
+- A callback function can be added to be executed when the server starts to listen
+- Requests can be made to the server from the browser using the specified port number
+
+Creating a node server with just 10 lines of code
+- Localhost refers to our own machine, which serves as the server.
+- By specifying the port number as 3000 in the code, we can access the server at that port.
+
+Specifying content type of the response is a good practice.
+- Add a second argument to res.writeHead() to specify content type as 'Text/plain'.
+- The content type header is technically optional but it is better to explicitly specify it.
+
+The video explains the key concepts of creating a Node server.
+- Import the built-in HTTP module
+- Use the createServer method to create a server
+- The request listener callback is executed on every request
+- The request object provides information about the incoming request
+- The response object is used to send back a response to the client
+
+Node server should listen to incoming requests on Port 3000.
+- Logging the request object to the console provides insight into the key-value pairs logged in the terminal.
+- There is a vast amount of information available in the request object that can be utilized if needed.
+
+---
+
+Summary for [Node.js Tutorial - 32 - JSON Response](https://www.youtube.com/watch?v=eTXEL921gT4)
+
+Responding with JSON in Node.js: Creating a Simple API and Understanding JSON Formatting
+
+Learn how to respond with JSON data in Node.js.
+- The tutorial builds upon the previous lesson on creating an HTTP server using the Node.js HTTP module.
+- It introduces creating an object to send as a JSON response, starting with a 'superhero' object.
+
+Handling JSON response and troubleshooting errors in Node.js.
+- Utilize 'res.end()' to send JSON objects back to the client.
+- Monitor the terminal for errors after executing 'node index' to debug issues.
+
+JSON format is necessary for sending JavaScript objects in responses.
+- JavaScript objects cannot be directly sent in responses; they need conversion.
+- JSON (JavaScript Object Notation) is a standard format for data interchange.
+
+JSON format simplifies data handling with built-in V8 engine support.
+- The V8 engine provides functionality to easily use JSON in Node.js applications.
+- By using JSON.stringify, we can convert JavaScript objects into JSON format for better data interchange.
+
+Setting content type to application/json allows object representation in responses.
+- Restarting the server after setting content type to see updates in the browser.
+- Using JSON.parse method to convert the JSON string back into a JavaScript object.
+
+Introduction to creating a JSON response with Node.js.
+- You have successfully implemented your first API using Node.js.
+- The API endpoint, accessible via localhost:3000, returns a JSON object containing first and last names.
+
+Understanding API data retrieval and JSON content type.
+- Any server capable of requests can access data from the application.
+- The content type should be set to application/json for JSON responses.
+
+Learn to send JSON responses in Node.js.
+- JSON allows data exchange in a structured format different from plain text.
+- Next, the tutorial will cover sending HTML responses.
+
+---
+
+Summary for [Node.js Tutorial - 33 - HTML Response](https://www.youtube.com/watch?v=50YtINv8Y-o)
+
+Sending HTML Responses in Node.js: Learn to Serve HTML Content and Use the FS Module for Static Files.
+
+Sending HTML responses using Node.js.
+- Reverting back to plain text response type instead of JSON.
+- Using 'text/plain' content type to display 'hello world' in the browser.
+
+Enhancing output by wrapping text in H1 tags for HTML response.
+- The H1 tag is used to define the most important heading in HTML, affecting the size and style of the text.
+- To display HTML correctly, the server response must indicate that it is sending HTML content rather than plain text.
+
+Sending HTML responses in Node.js using separate files.
+- The H1 tag is styled by default to render larger, bold text.
+- Best practice involves defining HTML in separate files instead of inline strings.
+
+Creating and reading HTML files in Node.js using the fs module.
+- A new file named index.html is created to generate HTML content, including a specified title and body text.
+- The fs module is utilized to read the contents of index.html within the request listener.
+
+Reading HTML file synchronously for response in Node.js.
+- Using 'fs.readFileSync' to read 'index.html' ensures content is fully loaded before sending response.
+- The file is read with UTF-8 encoding to properly handle text content.
+
+Handling HTML responses efficiently in Node.js.
+- Displaying HTML content from index.html using an H1 tag demonstrates basic response handling in Node.js.
+- Using readFileSync can consume excess memory for large files; streams are recommended for better performance.
+
+Serving HTML files in Node.js improves performance.
+- The response is piped to the HTML file for efficient handling.
+- Using __dirname for paths enhances maintainability and reduces errors.
+
+Responding with HTML in Node.js is straightforward.
+- You can enhance your HTML response by adding any desired HTML tags and CSS for styling.
+- Use content type 'text/html' for proper response formatting and employ watch mode to avoid server restarts.
+
+---
+
+Summary for [Node.js Tutorial - 34 - HTML Template](https://www.youtube.com/watch?v=osX3gNkRlK0)
+
+"Node.js Tutorial - Using HTML Templates and Dynamic Values"
+
+Learned to respond with HTML using Node.js.
+- Created and read an HTML file using the fs module.
+- Used piping to send the file contents as a response.
+
+Injecting dynamic values into HTML
+- Adding dynamic values, like the logged in user's name, to HTML
+- Using a basic solution to inject the username into the HTML
+
+Using HTML templates for dynamic value injection
+- Replacing string values within the request listener
+- Switching from FS.createReadStream to fs.readFileSync
+
+Declaring a constant value for displaying in HTML
+- The constant name is set to 'vishwas'
+- The value will be displayed in the HTML file as 'hello {vishwas}'
+
+Replace name in double curly braces with the name constant in the JavaScript file.
+- After reading the file, rely on simple string replacement.
+
+Updating HTML dynamic content
+- Changing the constant HTML to let
+- The use of HTML dot replace and double curly braces to update the content
+
+Creating and updating HTML templates in Node.js
+- Server sends updated HTML as a response
+- Restart Node.js and refresh the browser to see the changes
+
+Working with HTML templates using Node.js
+- JavaScript makes working with HTML templates really simple
+- The next video will cover routing with the HTTP server
+
+---
+
+Summary for [Node.js Tutorial - 35 - HTTP Routing](https://www.youtube.com/watch?v=S1QOZU5jOcw)
+
+Learn HTTP Routing in Node.js: Responding to Different URLs with Custom Messages and JSON Data Using the HTTP Module.
+
+Learn HTTP routing in Node.js for better web navigation.
+- Routing allows different responses for different URL paths, enhancing website functionality.
+- Understanding how to implement routing can improve user experience by serving relevant content.
+
+Understanding HTTP module and URL query handling in Node.js.
+- The request.url property retrieves the URL query string from incoming HTTP requests.
+- Utilizing rest.end with request.url sends the query string as a response, demonstrating its functionality.
+
+Understanding HTTP routing and handling different URL requests in Node.js.
+- The application responds with different content based on the URL path, such as root, about, and API routes.
+- Utilizing request.url allows for conditional logic to manage responses using if-else or switch statements.
+
+Handling HTTP routing for homepage and about page requests.
+- The root route '/' responds with a 200 status and plain text content.
+- The '/about' route is established to serve a different response when requested.
+
+Setup HTTP routing with JSON response in Node.js.
+- Use 'res.writeHead(200, { 'Content-Type': 'application/json' })' to set the response header.
+- Use 'res.end(JSON.stringify({ firstName: 'Bruce', lastName: 'Wayne' }))' to send JSON data.
+
+Implementing a 404 error response in HTTP routing
+- Configure the server to respond with a 404 status code for unknown URLs.
+- Ensure the user receives an informative message indicating the page was not found.
+
+Understanding HTTP routing in Node.js for different URL paths.
+- Mapping specific URL paths like '/about' and '/api' to corresponding responses such as web pages or JSON data.
+- Utilizing the HTTP module to access request objects and their URL properties for dynamic routing.
+
+HTTP methods help route requests in Node.js applications.
+- HTTP methods like GET, POST, PUT, and DELETE are used to differentiate and route various types of requests.
+- In practice, web frameworks simplify routing by automatically managing requests based on method and URL.
+
+---
+
+Summary for [Node.js Tutorial - 36 - Web Framework](https://www.youtube.com/watch?v=_eeZQwPqteM)
+
+Exploring Node.js Web Frameworks: Simplifying Server Request Handling Beyond the HTTP Module
+
+Overview of HTTP module capabilities in Node.js.
+- Learned how to create a server and handle client requests.
+- Explored sending responses, modifying headers, and supporting various formats like HTML and JSON.
+
+Use a web framework for efficient request handling in Node.js.
+- Web frameworks simplify server creation by abstracting complex code.
+- They allow developers to focus on application requirements rather than low-level details.
+
+Web frameworks simplify application development in Node.js.
+- These frameworks abstract the low-level HTTP module, making it easier to create web and mobile applications.
+- Popular frameworks like Express, Nest, Hapi, and Koa provide essential tools for building user interfaces efficiently.
+
+Introduction to Express as a popular Node.js framework.
+- Express simplifies the implementation of features discussed in this tutorial.
+- Future tutorials will cover Express framework features in detail.
+
+Overview of Node.js built-in modules and their functionalities.
+- Built-in modules come pre-installed with Node.js, enhancing development efficiency.
+- The path module offers essential utilities for handling file and directory paths.
+
+Introduction to Node.js event emitters and file system module.
+- The event emitter class is crucial for handling asynchronous events in Node.js applications.
+- The fs module supports file operations, enabling developers to interact with the file system seamlessly.
+
+Exploration of data handling through Node.js modules.
+- The fs module enables efficient data management with streams and allows processing in chunks.
+- The HTTP module facilitates server creation, request handling, and response formatting including plain text, HTML, and JSON.
+
+Understanding the fundamentals of Node.js is crucial.
+- Delving into how Node.js operates can enhance your development skills.
+- Engaging with the content can provide valuable insights into Node.js functionalities.
+
+---
+
+Summary for [Node.js Tutorial - 37 - Node Runtime Recap](https://www.youtube.com/watch?v=pt1HV6-d1YM)
+
+Node.js Runtime Recap: Exploring Asynchronous JavaScript, Components, and Characteristics of the Node.js Environment.
+
+Overview of Node.js runtime and its components.
+- The Node.js runtime serves as an execution environment for JavaScript outside the browser.
+- It includes essential components such as the V8 engine, event loop, and libuv to handle asynchronous operations.
+
+Overview of Node.js core components for running JavaScript outside the browser.
+- Node.js relies on key external dependencies like V8 for JavaScript execution and libuv for asynchronous I/O.
+- It integrates C++ components enabling file system access and networking capabilities alongside JavaScript utilities.
+
+Overview of JavaScript's asynchronous nature and single-threaded design.
+- JavaScript operates asynchronously, allowing non-blocking operations while still executing in a single-threaded environment.
+- Understanding the basics of asynchronous programming is essential for developing efficient Node.js applications.
+
+JavaScript executes functions synchronously, causing blocking behavior.
+- Code runs sequentially, meaning only one line executes at a time.
+- A slow process prevents subsequent functions from starting until it completes.
+
+JavaScript execution is single-threaded, blocking other functions until completion.
+- When a function executes an intensive code chunk, it must fully finish before the next function starts.
+- This behavior can lead to performance issues, such as the browser appearing frozen during long executions.
+
+JavaScript's single-threaded nature impacts web app performance.
+- The browser cannot process user input until the JavaScript executes and returns control to the processor.
+- In JavaScript, a thread runs one task at a time, limiting concurrent operations.
+
+JavaScript operates on a single thread but supports asynchronous tasks.
+- JavaScript runs on a single main thread, which limits its ability to execute tasks in parallel.
+- Asynchronous methods like FS.readFile and HTTP.createServer manage tasks without blocking the main thread, allowing for non-blocking I/O operations.
+
+Understanding Libuv's role in Node.js asynchronous behavior.
+- Libuv is an external library that provides a framework for asynchronous I/O operations.
+- It enables Node.js to handle multiple operations simultaneously, ensuring efficient event-driven programming.
+
+---
+
+Summary for [Node.js Tutorial - 38 - libuv](https://www.youtube.com/watch?v=mVx_PzR9SPo)
+
+Understanding libuv: The Backbone of Asynchronous Operations in Node.js and Its Key Features - Thread Pool and Event Loop.
+
+Introduction to libuv and its significance in Node.js.
+- libuv is a multi-platform support library focused on asynchronous I/O.
+- It provides the backbone for Node.js handling events and managing threads.
+
+Introduction to Libya's geographic and cultural significance.
+- Libya is a country located in North Africa, known for its vast desert landscapes.
+- It has a rich history influenced by various cultures and civilizations over centuries.
+
+libuv is a key library for handling asynchronous operations in Node.js.
+- libuv is written in C and provides a consistent API for networking, file I/O, and other system functionalities.
+- It abstracts the OS differences, enabling non-blocking I/O operations that improve Node.js's performance and scalability.
+
+libuv simplifies OS interactions for Node.js developers.
+- It handles asynchronous operations, allowing non-blocking I/O in Node.js.
+- libuv provides a cross-platform interface, making it easier to write platform-independent code.
+
+Introduction to Node.js's thread pool and event loop features.
+- The thread pool handles asynchronous operations by offloading tasks from the main thread.
+- The event loop manages the execution of code, collecting and processing events in a non-blocking manner.
+
+Introduction to libuv features beyond threadpool and event loop.
+- Libuv is designed for asynchronous I/O operations and cross-platform compatibility.
+- It manages thread pools and the event loop to optimize performance in Node.js applications.
+
+Understanding Node.js asynchronous code handling through libuv.
+- Node.js uses an event-driven, non-blocking I/O model enabled by libuv for efficient asynchronous operations.
+- Libuv provides a thread pool for executing tasks off the main event loop, improving concurrency in Node.js applications.
+
+Introduction to the thread pool concept in Node.js.
+- The thread pool handles asynchronous tasks efficiently in a non-blocking manner.
+- Understanding thread pool configuration and usage is crucial for optimizing performance in Node.js applications.
+
+---
+
+Summary for [Node.js Tutorial - 39 - Thread Pool](https://www.youtube.com/watch?v=I1sqnbJ1Fno)
+
+Understanding Node.js: How Libuv's Thread Pool Enhances Asynchronous File Reading and Task Management
+
+Introduction to Node.js thread pool and its async capabilities.
+- Node.js utilizes a thread pool for handling asynchronous tasks, allowing non-blocking operations.
+- The fs module's readFile method exemplifies this by executing code immediately while fetching file contents.
+
+Node.js uses a thread pool to handle asynchronous tasks efficiently.
+- The main thread communicates with libuv to manage tasks without blocking execution.
+- Libuv's thread pool consists of multiple threads that offload time-consuming operations, like reading files.
+
+Understanding the thread pool using the crypto module's pbkdf2 method.
+- The thread pool manages multiple threads to handle tasks efficiently, improving performance.
+- Crypto module's pbkdf2 method demonstrates real-world application of the thread pool for cryptographic operations.
+
+Measuring CPU-intensive hash password methods using Node.js thread pool.
+- The process involves using the pbkdf2 synchronous method to hash passwords, offloading work to the thread pool.
+- Timing measurements are taken to analyze performance, demonstrating how CPU-intensive operations can impact application responsiveness.
+
+Thread pool execution time increases with each duplicate function call.
+- Hashing passwords with pbkdf2sync takes longer as the number of synchronous calls increases.
+- Visualization of execution shows that multiple calls are processed sequentially, leading to cumulative delays.
+
+Experimenting with asynchronous pbkdf2 to avoid blocking the main thread.
+- Suffix operations are blocking and always run on the main thread, preventing parallel processing.
+- The async version of pbkdf2 uses a callback to log time after hashing, demonstrating non-blocking behavior.
+
+Demonstrates parallel execution of Node.js thread pool with pbkdf2.
+- The execution time remains consistent regardless of the number of parallel calls, indicating efficient thread management.
+- Visualizing the performance shows that calls do not linearly scale with the number of calls, highlighting concurrency benefits.
+
+Understanding libuv's thread pool and its asynchronous behavior in Node.js.
+- Functions like FS.readFile and crypto.pbkdf2 execute in a separate thread but appear asynchronous to the main thread.
+- The experiments reveal how asynchronous methods operate under the thread pool, with more insights to be explored.
+
+---
+
+Summary for [Node.js Tutorial - 40 - Thread Pool Size](https://www.youtube.com/watch?v=3JYNNf3Iljo)
+
+Understanding Node.js Thread Pool: Experiments on Size Impact and Performance of pbkdf2 Function Calls.
+
+Explores thread pool size and concurrency in Node.js.
+- The previous video demonstrated offloading tasks like pbkdf2 to the thread pool, emphasizing parallel execution.
+- In the current experiment, increasing max calls to four shows consistent execution time, indicating thread pool limits.
+
+Increasing hash calls reveals Node.js's thread pool limitations.
+- The default thread pool size in Node.js is four, which affects performance during concurrent operations.
+- When the fifth hash call is made, it has to wait for an available thread, causing a significant delay.
+
+Increase Node.js thread pool size for better performance.
+- You can increase the thread pool size using the environment variable 'process.env.UV_THREADPOOL_SIZE'.
+- Setting the thread pool size to five allows more pbkdf2 calls to run in parallel.
+
+Increasing thread pool size improves performance of multiple PBKDF2 calls.
+- Adjusting the thread pool size to six eliminates the performance penalty for the sixth hashing operation.
+- Care must be taken when increasing the thread pool size, as exceeding optimal limits can introduce overhead.
+
+Increasing thread pool size affects method execution time.
+- Experimenting with thread pool sizes of 8 and 16 shows consistent execution times across multiple hashes.
+- Execution time increases slightly when transitioning from a pool size of 8 to 16, averaging around 550 to 600 milliseconds.
+
+Thread pool size significantly impacts performance in Node.js.
+- With one call to pbkdf2 on a single thread, it takes about 270 milliseconds.
+- Increasing the thread pool size to match the number of CPU cores optimizes execution time for concurrent calls.
+
+Thread management in Node.js affects performance significantly.
+- When using 16 threads for 16 pbkdf2 calls, each thread competes for CPU time across 8 cores.
+- The operating system's thread scheduling results in increased execution time, from 270 milliseconds to 550-600 milliseconds.
+
+Thread pool size impacts Node.js performance based on CPU cores.
+- Increasing thread pool size can enhance performance, but it is constrained by the available CPU cores.
+- Not all async methods utilize the thread pool; this will be elaborated in the next video.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 41 - Network I/O](https://www.youtube.com/watch?v=qCC56uJh3bk)
+
+Title: Understanding Network I/O and Async Methods in Node.js
+
+Understanding the role of libuv's thread pool in executing async methods
+- Exploring a different point related to libuv and async methods
+- Experimenting with a different async method involving network I/O
+
+Using the 'https' module for secure requests
+- https module is a secure version of HTTP module
+- Making requests using the 'request' method and handling response
+
+Introduction to network I/O with the request module
+- Demonstration of making requests using the request module inside a for loop
+- Exploring the impact of different values of Max calls on request execution time
+
+Changing thread pool size and max calls doesn't significantly affect network I/O performance.
+- Increasing thread pool size to six did not result in a noticeable change in the average network I/O time.
+- Changing max calls to 12 also did not show a significant impact on the average network I/O time.
+
+HTTPS request in Node.js does not seem to use the thread pool or be affected by the number of CPU cores.
+- Average time remains the same for one, six, or 12 requests, suggesting no involvement of thread pool.
+- HTTPS request is not affected by the number of CPU cores; the average time for 12 requests is the same as for one request.
+
+https dot request is a network I/O operation
+- Uses operating system kernel to delegate work, not thread pool
+- Request time remains nearly the same with 1 to 12 different requests
+
+Node.js uses native async mechanisms for network I/O
+- Libuv uses native async mechanisms to avoid blocking the main thread
+- Node.js scalability is dependent on the operating system kernel
+
+Node.js handles async tasks with thread pool for file IO or CPU intensive tasks.
+- The thread pool avoids blocking the main thread and preserves asynchronicity.
+- All threads can become a bottleneck if all are busy, impacting async performance.
+
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 42 - Event Loop](https://www.youtube.com/watch?v=L18RHG2DwwA)
+
+Understanding the Event Loop in Node.js: Asynchronous Execution and the Role of V8 Engine and libuv Explained.
+
+Understanding Node.js event loop and asynchronous execution.
+- JavaScript operates as a synchronous, single-threaded language requiring additional support for asynchronous programming.
+- The V8 engine manages code execution through a call stack and memory heap while Libuv handles async operations to prevent blocking.
+
+Understanding synchronous code execution in Node.js.
+- Node.js starts execution in the global scope, pushing functions onto the stack for each console log statement.
+- Each console log occurs sequentially, with functions being logged, pushed, and popped off the stack at precise milliseconds.
+
+Understanding the execution of asynchronous operations in Node.js event loop.
+- The global function execution begins with the main thread running synchronous code, pushing functions onto the stack.
+- Asynchronous tasks, like file reading, are offloaded, allowing the main thread to continue executing while waiting for their callbacks.
+
+Node.js executes asynchronous code using the event loop mechanism.
+- When a callback function is executed and has no more statements, it is popped off the call stack.
+- Node decides when to run associated callbacks based on the state of the call stack and event loop priorities.
+
+Understanding the Event Loop as a design pattern in Node.js.
+- The Event Loop orchestrates synchronous and asynchronous code execution in Node.js applications.
+- Visual representations will aid in understanding the Event Loop's structure, including its various queues for executing callbacks.
+
+Understanding the different callback queues in Node.js event loop.
+- Node.js features multiple queues: Timer, IO, Check, and Close, managing asynchronous callbacks.
+- Microtask Queue consists of Next Tick and Promise Queue, prioritizing certain callbacks in execution order.
+
+The Event Loop processes tasks in a specific order based on queues.
+- Callbacks are executed from micro task queues before moving to timer and I/O queues.
+- Micro task queues are revisited multiple times throughout execution to ensure timely callback handling.
+
+The event loop manages asynchronous callback execution in Node.js.
+- Callbacks are processed when the call stack is empty, ensuring normal execution flow isn't interrupted.
+- Timer callbacks have priority over I/O callbacks, illustrating the event loop's execution order.
+
+
+
+
+
+Summary for [Node.js Tutorials - 43 - Microtask Queues](https://www.youtube.com/watch?v=M3sbOSJvhxg)
+
+Understanding Node.js Microtask Queues: Exploring Next Tick and Promise Queues with Code Experiments and Execution Order
+
+Exploring the functionality of microtask queues in Node.js.
+- Node.js event loop consists of multiple queues, including two microtask queues: next tick queue and promise queue.
+- The process.nextTick method is used to schedule a callback for execution in the next tick queue.
+
+Understanding how to queue callback functions in microtask queues.
+- Callback functions can be queued in the promise microtask queue using 'Promise.resolve().then'.
+- The 'process.nextTick' method allows callbacks to be executed before the next event loop iteration.
+
+Synchronous code in Node.js takes priority over asynchronous callbacks.
+- User-written synchronous JavaScript executes first, delaying the execution of asynchronous callbacks.
+- The event loop manages the execution order by processing queued callbacks only after synchronous code is complete.
+
+Microtask queues prioritize nextTick callbacks over promise callbacks.
+- In the experiment, a callback function is queued in the promise queue and another in the nextTick queue.
+- Upon execution, the nextTick message logs before the promise message, illustrating queue priority.
+
+Understanding the execution order of callback functions in Node.js.
+- The event loop prioritizes the next tick queue over the promise queue for execution.
+- Callback functions from process.nextTick execute before promise.resolve callbacks in the event loop.
+
+Understanding microtask queues and execution order in Node.js.
+- The code demonstrates the order of execution between process.nextTick and Promise.resolve.
+- A visual explanation aids in comprehending the behavior of callbacks in different queues.
+
+Understanding event loop and microtask queues in Node.js.
+- The event loop prioritizes the execution of callbacks, executing them in order, including any added to the next tick queue.
+- Once the promise queue is executed, Node.js checks for new microtask callbacks before moving on to the next tasks.
+
+Microtask queue execution order and cautions on process.nextTick usage.
+- All callbacks in the next queue execute before those in the promise queue, emphasizing the execution order.
+- Using process.nextTick can lead to event loop starvation; it should be used judiciously to manage errors and resources.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorials - 44 - Timer Queue](https://www.youtube.com/watch?v=0eLD_uf8ieo)
+
+Understanding Timer Queue in Node.js: Comparing Microtask and Timer Queue Execution with Examples
+
+Understanding the timer queue and its interaction with microtask queues.
+- Timer queue manages asynchronous code execution using functions like setTimeout and setInterval, scheduling callbacks after specified delays.
+- The order of execution between microtask and timer queues is crucial for understanding how JavaScript handles asynchronous operations.
+
+Understanding the Timer Queue and its behavior in Node.js.
+- The code snippet queues callback functions in both the microtask and timer queues, confirming functioning across different queues.
+- Using setTimeout with a delay of 0 milliseconds allows immediate queuing of functions, demonstrating the execution order in Node.js.
+
+Timer queue callbacks are executed after microtasks in Node.js.
+- Microtasks, like promises, take priority over callbacks in the timer queue during event loop execution.
+- Using process.nextTick allows for further callbacks to be added to the next queue mid-execution, influencing execution order.
+
+Understanding the execution flow of callbacks in Node.js event loop.
+- Callbacks are processed in the promise queue before moving to the timer queue, following an empty queue check.
+- Each callback in the timer queue is executed sequentially, leading to log messages being printed in order from setTimeout.
+
+Exploring how Timer Queue interacts with callbacks in Node.js.
+- The callback function in the setTimeout is modified to include additional logging.
+- Using process.nextTick allows deeper understanding of execution order in the timer queue.
+
+Understanding timer queue and microtask queue interleaving in Node.js.
+- Callbacks in the timer queue are executed sequentially, with each completion triggering a check of the microtask queue.
+- Microtask queue callbacks are prioritized, allowing for additional tasks to be processed immediately after timer callbacks.
+
+Understanding the execution sequence of timer callbacks in Node.js.
+- The timing of callback execution depends on the emptiness of the microtask queue.
+- Experimenting with multiple setTimeout calls illustrates how different delays affect the order of output.
+
+Timer Queue executes callbacks in first-in-first-out order.
+- Set timeout callbacks are queued in order of their delay and executed by the event loop accordingly.
+- The timer queue is a Min Heap data structure, though conceptualizing it as a queue simplifies understanding.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorials - 45 - I/O Queue]
+
+Understanding the Execution Order in JavaScript
+
+**:**
+
+- **IO Queue (IOQ)**: This queue contains callback functions that are generally prompted by asynchronous methods from built-in modules.
+
+- **Microtask Queue Execution**: Callbacks in the microtask queue are executed before those in the IOQ. The event loop helps visualize this execution order, where the microtask queue (often related to promises) takes precedence over the IOQ.
+
+- **Event Loop and Callback Queues**: The event loop organizes callbacks in various queues. Callbacks in the timer queue are executed before those in the IO queue. However, queuing a callback with zero delay in the timer queue can lead to inconsistent outputs.
+
+- **Execution Order Issues**: The execution order of setTimeout with 0 milliseconds and IO asynchronous methods cannot be guaranteed. This inconsistency is often due to the minimum delay settings for timers in browsers like Google Chrome.
+
+- **Node.js Timer Behavior**: In Node.js, when setting a timeout with a delay of 0 milliseconds, the minimum delay is set to 1 millisecond. Calculating intervals in milliseconds might cause a maximum value of 1 millisecond, requiring Node.js to determine if the timer has elapsed before the next iteration of the event loop.
+
+- **Uncertainty in Execution Order**: There is uncertainty regarding the execution order between zero-millisecond timers and IO callbacks, especially when the CPU is busy. Timer queue callbacks execute before IO callbacks.
+
+- **Different Callback Types in Node.js**: Callbacks can be added to the next tick queue, promise queue, or timeout queue. A for loop can be used to ensure that timer callbacks execute after the timer concludes.
+
+- **JavaScript's Single-threaded Event Loop**: JavaScript has a single-threaded event loop designed to handle asynchronous operations. The priority order of the event loop queues is: promise queue, timer queue, and IO queue.
+
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 46 - I/O Polling](https://www.youtube.com/watch?v=tVWFg6y6Wdg)
+
+Understanding Node.js I/O Polling and Check Queue Mechanics Through Practical Experimentation
+
+Exploring I/O polling and introduction to the check queue.
+- The focus is on understanding the order of execution in I/O operations.
+- Introduction of 'setImmediate' for adding callbacks to the check queue.
+
+Exploring execution order in Node.js callbacks.
+- Demonstrates the execution order of nextTick, promise, setTimeout, and readFile callbacks.
+- Confirms findings with a visual representation of the callback execution sequence.
+
+Understanding how setImmediate affects I/O polling in Node.js.
+- setImmediate queues a callback function to be executed in the check phase of the event loop after I/O events complete.
+- Observing the output can be surprising, as setImmediate may execute before readFile due to the order of event loop phases.
+
+Understanding I/O polling and its queue interactions in Node.js.
+- Execution begins with all statements processed on the call stack, leading to callbacks being queued.
+- Callbacks end up in various queues: tick, promise, timer, IO, and check, with specific handling for read file.
+
+Explaining the order of event loop execution in Node.js.
+- The event loop processes micro task queues first, prioritizing next tick callbacks over promise callbacks.
+- Once all micro tasks are complete, the control moves to the timer queue, executing callbacks like setTimeout before handling I/O operations.
+
+The event loop uses polling to manage I/O operations in Node.js.
+- I/O operations must be checked by the event loop to see if they are complete.
+- Control enters the polling phase of the event loop when the callback queue is initially empty.
+
+Understanding I/O polling in Node.js event loop.
+- Callbacks wait for their turn in the I/O queue before execution.
+- The event loop iterates, checking for callbacks in the micro task and timer queues.
+
+I/O events are polled, and callbacks execute post-operation completion.
+- Previous experiments revealed no further code to observe I/O polling behavior.
+- Understanding the check queue will be explored in the next video.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 47 - Check Queue](https://www.youtube.com/watch?v=6Mu_bhHmh2Q)
+
+Understanding the Check Queue in Node.js: Exploring I/O Polling and Callback Execution Order through Experiments.
+
+Experimenting with check queue behavior in Node.js.
+- The video revisits IO polling and its interaction with callbacks in the check queue.
+- An experiment is conducted by altering when 'setImmediate' is called to observe its execution order.
+
+Visualizing the event loop and queue execution in Node.js.
+- Execution begins with the call stack, moving through the next queue, promise queue, and timer queue sequentially.
+- When IO polling completes, callbacks are processed, starting from the IO queue before checking other queues like close queue.
+
+Explains execution flow in Node.js event loop with queues.
+- The loop checks various queues, execution moves to the io queue upon finding a callback.
+- Callbacks from setImmediate and process.nextTick are logged demonstrating execution order.
+
+Explains the execution order of queues in the event loop.
+- Microtask queue callbacks are executed after I/O callbacks but before check queue callbacks.
+- The event loop processes callbacks from various queues in a specific order: nextTick, promise, timer, and I/O.
+
+The event loop processes callbacks from multiple queues in sequence.
+- The loop checks and clears empty queues before executing new callbacks in the IO queue.
+- Callbacks from the microtask queues are executed before moving to the next check queue, ensuring timely processing.
+
+Micro task queues execute between check queue callbacks in Node.js.
+- Callbacks in micro task queues, like 'process.nextTick' and 'promise.resolve', have higher priority than check queue callbacks.
+- The execution order can be visualized through examples, demonstrating that micro tasks run before the next check queue callback.
+
+Understanding the execution flow of callbacks in Node.js queues.
+- Callbacks from the check queue are executed sequentially until the micro task queues are empty.
+- Micro tasks from the next and promise queues have higher priority and are executed in between check queue callbacks.
+
+Understanding the order of execution in Node.js callback queues.
+- The execution order of 'setTimeout' and 'setImmediate' can vary, even with zero delays.
+- Inserting a time-consuming loop ensures 'setTimeout' consistently executes before 'setImmediate'.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 48 - Close Queue](https://www.youtube.com/watch?v=XmOc2fCTKeQ)
+
+Understanding the Close Queue in Node.js Event Loop: Final Experiment and Execution Order Explained.
+
+Introduction to the close queue in the Node.js event loop.
+- The close queue processes tasks related to closing event listeners in asynchronous operations.
+- Understanding the close queue is essential for efficient resource management within Node.js applications.
+
+Demonstrating closing a readable stream in Node.js.
+- Using 'fs' to create a read stream and close it with the close method.
+- Attaching a listener to the close event to log a message upon stream closure.
+
+Understanding close queue execution order in Node.js events.
+- Listeners for close events help manage the order of operation completion.
+- The execution order involves setImmediate, setTimeout, Promise.resolve, and process.nextTick.
+
+Understanding the close queue event callbacks in Node.js.
+- Close queue callbacks execute after all other callbacks in the event loop iteration.
+- Control enters the event loop when there are no further execution statements.
+
+Understanding the execution flow in Node.js close queue.
+- The promise queue is processed, with callbacks executed in order based on their timing and priority.
+- Control transitions to the close queue where the final callback is invoked, demonstrating the completion of the event loop.
+
+Understanding the role of the event loop in Node.js execution.
+- The event loop orchestrates the execution of both synchronous and asynchronous code.
+- It manages callbacks using six different queues, including nextTick, promise, timer, and IO.
+
+Understanding the usage of queues in Node.js for managing asynchronous operations.
+- Utilizing process.nextTick to queue promises for immediate execution after the current operation.
+- Employing setTimeout and setInterval to manage timing operations within the Node.js event loop.
+
+Understanding async code execution in Node.js queues.
+- NextTick and promise queues are processed between callback executions.
+- This section concludes the exploration of Node.js async internals.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 49 - What is npm?](https://www.youtube.com/watch?v=3eCIJHgEI28)
+
+Understanding npm: The World's Largest Software Library and Package Manager for Node.js Development
+
+npm is the largest software library and package manager.
+- npm serves as the world's largest software library, providing access to a vast collection of reusable code packages.
+- As a package manager, npm simplifies the process of installing, sharing, and managing software dependencies in Node.js applications.
+
+npm is a global repository for sharing JavaScript code packages.
+- Developers can find and use a vast array of code packages from the npm registry.
+- Users can publish their own code packages to npm for others to utilize.
+
+npm is a vital tool for managing code packages.
+- Developers can easily borrow and utilize existing code without starting from scratch.
+- npm serves as the largest software library, allowing searches for various packages.
+
+Essential considerations for package management in Node.js using npm.
+- Developers can publish packages to the npm registry, making them available for others.
+- Updating installed packages and managing dependencies are critical for maintaining code stability.
+
+npm simplifies package management in Node.js projects.
+- npm acts as a command line interface tool for installing and managing project packages.
+- There are other package managers similar to npm that also facilitate package management.
+
+npm is the default package manager bundled with Node.js.
+- npm is automatically installed when Node.js is installed, eliminating the need for separate installation.
+- To check if npm is installed, you can run 'npm -v' in your terminal to see the version.
+
+npm is a crucial package manager for JavaScript.
+- Originally, npm stood for Node Package Manager but now serves a broader purpose.
+- Understanding npm is essential for managing JavaScript packages effectively.
+
+npm is essential for leveraging other developers' code in Node.js projects.
+- npm facilitates the management of packages, allowing developers to easily integrate external code into their applications.
+- Understanding npm is crucial for both personal and professional projects, as it streamlines the development process.
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 50 - package.json](https://www.youtube.com/watch?v=bSuFQY0fB8Y)
+
+Understanding package.json in npm: Essential configuration for your Node.js project, including name, version, and metadata fields.
+
+Introduction to package.json as npm's configuration file.
+- package.json is a JSON file that contains metadata for your package, located in the root directory.
+- It serves as the central configuration file for defining how to interact with and run the package.
+
+Creating a custom package with package.json in Node.js.
+- A new folder named 'my custom package' is created to house the project files.
+- An index.js file is created to define and export a 'greet' function for future packaging.
+
+Key fields of package.json: name and version.
+- The name field specifies the package name, which must be lowercase and a single word, allowing hyphens or underscores.
+- The version field follows semantic versioning format x.x.x; our initial version will be set to 1.0.0.
+
+Understanding package.json for npm package management.
+- The keywords field helps in package discovery by indexing relevant terms in the npm registry.
+- The main field defines the entry point of the project, typically the main JavaScript file like index.js.
+
+Use npm init to automatically create package.json.
+- The npm CLI simplifies package.json creation by prompting for essential fields.
+- It provides sensible defaults and help commands to assist users.
+
+Creating a package.json file with default values.
+- The default package name is derived from the folder name, which can be changed if desired.
+- Users can accept default values for version, entry point, and other fields by pressing enter.
+
+Creating a package.json file using npm init.
+- After entering the necessary details, a package.json file is generated in the specified folder.
+- To quickly create a package.json with default settings, use the command 'npm init --yes'.
+
+Understanding package.json and its default values in Node.js.
+- package.json serves as the primary configuration file for npm, defining project metadata and dependencies.
+- Users can customize package.json by modifying default values and exploring additional fields for project management.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 51 - Installing Packages](https://www.youtube.com/watch?v=exWXjqCSSRE)
+
+Installing and Evaluating npm Packages in Node.js: A Guide to Choosing the Right Tools for Your Project
+
+Learn to install an npm package in Node.js.
+- npm is a global software registry that provides access to various packages created by developers.
+- Installing packages allows developers to utilize existing solutions, speeding up the development process.
+
+Learn how to identify and assess a package from npm registry.
+- Visit npmjs.com and use relevant keywords to search for packages.
+- Evaluate the suggested package's purpose and suitability for your project.
+
+Guidelines for installing Node.js packages.
+- Check the published date of the package, ideally less than a year old, but context matters.
+- For simple functionality, such as string conversion, older packages may still be viable.
+
+Evaluating Node.js packages based on downloads and size is crucial.
+- Packages with millions of downloads are generally reliable and widely used by developers.
+- Consider the size of packages, as larger ones can bloat your project bundle.
+
+Choose packages wisely, focusing on size and documentation.
+- Smaller package sizes are preferable for efficiency, but a few kilobytes are acceptable for essential packages.
+- Good documentation and minimal issues are critical factors in selecting reliable packages.
+
+Installing packages with npm updates project dependencies.
+- Use 'npm install' command to add packages to your project without the outdated '--save' option.
+- After installation, packages are stored in 'node_modules' and dependencies are listed in 'package.json'.
+
+Installing npm packages creates a package-lock.json file for version tracking.
+- The package-lock.json file is generated upon adding the first dependency, recording installed packages and versions.
+- This ensures consistency, allowing others to install the same dependencies without version conflicts.
+
+Uninstalling packages and observing related changes.
+- Run 'npm uninstall' with the package name to remove it from your project.
+- Check the updates in package.json, package-lock.json, and the node_modules folder.
+
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 52 - Using Packages](https://www.youtube.com/watch?v=5oDSVJ7ZCXc)
+
+Learn how to import and use the uppercase package in Node.js projects, enhancing functionality with npm modules.
+
+Learn to use the installed uppercase package in Node.js.
+- The uppercase package is installed from the npm registry and serves as a module in Node.js.
+- Modules in Node.js allow us to organize and reuse code effectively across different projects.
+
+Importing local and built-in modules in Node.js.
+- Use 'require' with a relative path to import a local module.
+- Use 'require' with 'node:fs' to import the built-in file system module.
+
+Importing and using third-party packages in Node.js.
+- Third-party modules are code packages installed via npm, enhancing functionality in Node.js applications.
+- The tutorial demonstrates how to check the package usage instructions on npm's website for proper implementation.
+
+Converting to CommonJS for package usage in Node.js.
+- Use 'require' to import the entire package, enabling access to its functionalities.
+- Access specific functions, like 'uppercase', by specifying them after importing the package.
+
+Demonstrating how to use the uppercase function in Node.js.
+- The uppercase function is invoked by passing a string, effectively transforming it to uppercase.
+- By running 'node index' in the terminal, we can verify that the output matches the expected uppercase result.
+
+Successfully used an npm package for text manipulation.
+- The tutorial demonstrates installing and using a package from the npm registry for text transformation.
+- It highlights potential use cases for packages, like complex operations such as deep cloning JavaScript objects.
+
+Using npm packages like Lodash enhances JavaScript utility in projects.
+- Lodash is a widely-used JavaScript library that provides helpful utility functions.
+- Utilizing Lodash allows developers to concentrate on project needs instead of writing custom utility code.
+
+Installing and using packages from the npm registry.
+- Learn how to install packages using npm commands effectively.
+- Understand the 'dependencies' field in package.json for package management.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 53 - Dependencies](https://www.youtube.com/watch?v=xpHziG_PNqY)
+
+Understanding the role of the dependencies field in package.json for managing npm packages in Node.js projects.
+
+Understanding the role of the dependencies field in package.json.
+- The dependencies field is essential for recording packages required by the project.
+- It automatically populates with installed packages, ensuring proper management of dependencies.
+
+Understanding npm dependencies for project functionality.
+- The dependencies field in package.json helps npm manage required packages for the project.
+- Using version control, the dependencies list ensures consistent environment setups across team members.
+
+Managing dependencies in Node.js without committing node_modules to source control.
+- Node.js projects may have 5 to 50 npm packages listed in their dependencies.
+- The 'node_modules' folder can be large, so it is ignored in version control systems.
+
+Understanding project dependencies and the node_modules folder.
+- When the code is cloned, the node_modules folder is not included, causing dependency issues.
+- Running the application without node_modules results in errors, indicating missing modules that need to be installed.
+
+Understanding project dependencies in Node.js.
+- The dependencies field in a project defines the required packages for functionality.
+- To add a dependency, use the npm install command followed by the package name.
+
+Use npm to install multiple packages efficiently.
+- The npm CLI allows for batch installation of packages without manual input of each one.
+- Running 'npm install' in the terminal simplifies dependency management for projects.
+
+Managing dependencies is crucial for Node.js project development.
+- Dependencies are automatically installed in the 'node_modules' folder during development.
+- Once dependencies are set, running 'node index' ensures the project functions correctly.
+
+Understanding the role of dependencies in package.json.
+- Dependencies in package.json specify the libraries required for a Node.js project.
+- A package manager like npm simplifies the process of managing these dependencies.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 54 - Versioning](https://www.youtube.com/watch?v=LuV5upokyBY)
+
+Understanding Semantic Versioning in npm: How to Install Specific Package Versions and Its Importance in Project Management.
+
+Understanding versioning in npm for package management.
+- Dependencies in package.json include both the package name and the installed version.
+- The npm install command defaults to the latest stable version unless a specific version is specified.
+
+Managing Node.js versions effectively with package.json.
+- Specifying a version in package.json helps avoid bugs in the latest release.
+- You can revert to an earlier version if a critical issue arises in the latest update.
+
+Semantic versioning is crucial for version number management in web development.
+- Semantic versioning, or sver, is a widely adopted system that simplifies version number assignment.
+- It provides rules for incrementing version numbers based on changes in functionality and compatibility.
+
+Understanding semantic versioning for effective software change tracking.
+- Semantic versioning helps communicate the nature of code changes through a structured versioning system.
+- Version numbers are formatted as x.y.z, where x denotes major changes, y indicates minor updates, and z signifies patches.
+
+Understanding semantic versioning in Node.js.
+- The version numbering format consists of major, minor, and patch versions, like 2.0.2.
+- Increment the patch version for bug fixes; and increment the minor version for new compatible features.
+
+Understanding semantic versioning and its impact on code compatibility.
+- When making changes that break backward compatibility, increment the major version and reset minor and patch versions to zero.
+- Semantic versioning helps users make informed decisions about adopting changes in projects.
+
+Understanding semantic versioning for Node.js packages.
+- Initial development is marked by a major version of zero (0.x.x), indicating the software is still in progress.
+- Once the code is ready for production, the version must be incremented to 1.0.0, signifying its stability and readiness.
+
+Understanding versioning and its importance in project updates.
+- Users must track changes and update projects consistently to avoid issues.
+- Correct versioning is crucial for package developers to ensure compatibility and reliability for users.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 55 - Global Packages](https://www.youtube.com/watch?v=Ns0dG5QKI80)
+
+Exploring Global Packages in Node.js: Installing and Using Nodemon for Command Line Development
+
+Local package installation in Node.js enables project-specific dependencies.
+- Packages installed via npm are stored in the local node_modules folder of the project.
+- This local installation allows developers to import and use packages specifically within the project context.
+
+Standalone command line applications can be installed via npm.
+- Packages published to the npm registry may function as standalone tools for use in terminal environments.
+- An example is 'create-react-app', which is used to set up new React applications from the command line.
+
+Nodemon is a popular global package for Node.js development.
+- Nodemon automatically restarts the application upon file changes, enhancing development efficiency.
+- The package includes a recently introduced watch mode, improving change detection in Node.js applications.
+
+Learn about globally installing the Node.js package nodemon.
+- Nodemon is a utility that automatically monitors your Node.js applications for file changes.
+- The command 'npm install -g nodemon' is used to install Nodemon globally, allowing easy access from the terminal.
+
+Install global Node.js packages for command line access.
+- Using 'sudo npm install -g nodemon' allows the package to be accessed anywhere in the terminal.
+- On Windows, 'sudo' is not necessary for global package installation.
+
+Node.js enables automatic application restarts during code changes.
+- Using terminal commands, changes in the code like log statements are reflected instantly.
+- Node monitors file changes and restarts the application, enhancing development efficiency.
+
+Global packages require individual installation and are not project dependencies.
+- Global packages must be installed separately by each developer for an entire team to use them.
+- To uninstall a global package, use the command 'npm uninstall -g package_name'.
+
+Understanding global packages and their role in Node.js development.
+- Global packages are utilities and tools designed to enhance the development process in Node.js.
+- It's important to differentiate between local and global package installations for effective project management.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 56 - npm Scripts](https://www.youtube.com/watch?v=XHtYRaIzNUM)
+
+Understanding npm Scripts in Node.js: Creating and Running Commands Efficiently in Your Project
+
+Introduction to npm Scripts for project command management.
+- npm scripts allow you to define and run common commands easily.
+- They are executed in the command line to facilitate application tasks.
+
+npm scripts ensure consistent project commands across the team.
+- The package.json file allows access to standardized scripts for all contributors.
+- Common npm script use cases include building projects, starting a development server, and optimizing code via linting and minifying.
+
+Introduction to executing npm scripts in Node.js.
+- npm scripts can be run using the command 'npm run' followed by the script name.
+- Running 'npm init' creates a 'scripts' field in the package.json file for script management.
+
+Creating custom npm scripts for Node.js applications.
+- The tutorial demonstrates how to add a custom script in the npm configuration.
+- The example script will execute the 'index.js' file of the Node.js application.
+
+Running Node.js scripts using npm commands.
+- The script defined in npm initiates the execution of index.js.
+- Using 'npm run start' simplifies the process of starting Node.js applications.
+
+Introduction to npm scripts for project setup.
+- npm scripts simplify project initialization by providing predefined commands.
+- They enhance team collaboration by allowing members to run scripts without manual command knowledge.
+
+Using npm scripts simplifies running multiple commands in large applications.
+- In enterprise applications, the start script can encompass several commands, streamlining the development process.
+- The 'npm run start' command is special, enabling developers to directly execute the start script effortlessly.
+
+Introduction to npm scripts for Node.js beginners.
+- Npm scripts provide a simple way to automate tasks in a Node.js project.
+- Understanding npm scripts is essential before learning how to publish packages to the npm registry.
+
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 57 - Publishing an npm Package](https://www.youtube.com/watch?v=IND8P7M3-Ng)
+
+Publishing a Node.js Package to npm: Step-by-Step Guide for Beginners
+
+Learn to publish a package to the npm registry.
+- The package to be published includes code for a simple greeting function.
+- Run the command 'npm publish' to upload your package to the npm registry.
+
+Steps to create an npm account using VS Code.
+- Visit npmgs.com to access the sign-up page.
+- Provide a username, email, and password; confirm with a one-time password sent via email.
+
+You can add a user to npm using the terminal.
+- Execute the command 'npm add user' followed by your username in lowercase.
+- Provide your npm credentials when prompted to complete the setup.
+
+Publish your Node.js package to the npm registry.
+- Run 'npm publish' in the terminal to initiate the publishing process for your package.
+- Visit https://www.npmjs.com/package/[your-package-name] to view and confirm your package is publicly listed.
+
+Creating a new npm package and its configuration
+- Use 'npm init --yes' to automatically generate a package.json file for your new package.
+- Run 'npm install' (or 'npm i') to include necessary dependencies in the package.
+
+Demonstrating package usage with a custom greet function.
+- The tutorial shows how to create an index.js file to utilize the custom package's greet function.
+- When executing the code, the greet function outputs a welcome message, highlighting the package's functionality.
+
+Overview of npm and package management essentials.
+- Learned about npm and its necessity in JavaScript development.
+- Explored package.json, dependencies, versioning, and global package usage.
+
+Publishing a package to the npm registry is essential for Node.js beginners.
+- Understanding the package publishing process helps new developers share their work and contribute to the community.
+- For further learning, resources such as the npm documentation provide valuable information and guidance.
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 58 - Building CLI Tools](https://www.youtube.com/watch?v=y-zS9XV_kRM)
+
+Learn to build CLI tools with Node.js in this section. Create a simple CLI using Node.js and npm. Follow three steps to convert the package into a CLI.
+
+Learn to build CLI tools with Node.js and npm
+- Understand the concept of CLI and its usage
+- Popular CLIs include npm and git
+
+Learn to create a simple CLI tool using node.js and npm
+- Follow a step-by-step guide in a series of videos
+- Learn to pass options and add interactivity to the CLI
+
+Creating a custom CLI with npm
+- Initialize a new npm project and navigate into the project folder
+- Update the package.json file with custom project name
+
+Creating a CLI tool using Pokemon API
+- Ensure unique package name to publish on npm registry
+- Create index.js file with log statement for code execution
+
+Converting package to CLI requires additions to index.js and package.json
+- Add a hashbang at the top of index.js to specify the interpreter to use (in this case, node)
+- Add a new field called bin in package.json
+
+Creating a CLI tool
+- Package should be treated as an executable file
+- Specify the command to execute and the entry point to the CLI
+
+Install CLI tool globally with npm
+- Run 'sudo npm install' from project folder
+- Package will be installed globally and bin field will be recognized
+
+Run index.js and view log statement
+- Execute command 'node index.js'
+- Run 'code Evolution-Pokedex' after command completes
+
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorials - 59 - CLI Options](https://www.youtube.com/watch?v=oIg08Z0bqsY)
+
+Creating a Pokedex CLI Tool: Fetch and Display Pokémon Moves Using Node.js and API Integration.
+
+Adding logic and options to a Node.js CLI tool.
+- Explains how to enhance a basic CLI tool created in the previous video.
+- Introduces pokeyapi.co as a resource for accessing free Pokémon-related data through a REST API.
+
+Implementing CLI to display first five moves of a Pokémon.
+- The 'moves' property is an array where each entry represents a Pokémon move object.
+- Each move object contains a 'name' and 'URL', which are essential for fetching move details.
+
+Fetching and displaying Pokémon moves using API.
+- The async function accepts a Pokémon name and logs its first five moves.
+- It utilizes the Pokémon API to retrieve data by forming a fetch request with the Pokémon name.
+
+Extract and log the first five Pokémon moves using CLI options.
+- Utilize the map function to extract and log only the names of Pokémon moves.
+- Implement slicing to display only the first five moves from the 'moves' property.
+
+Updating CLI to accept user-defined Pokémon names.
+- Current code locks in specific Pokémon moves, but needs user customization.
+- Implementing argument passing in CLI commands allows dynamic Pokémon name input.
+
+Logging CLI options helps manage command-line arguments in Node.js.
+- Using 'process.argv' allows access to command-line arguments as an array in Node.js applications.
+- The first two indices of 'process.argv' provide the paths to the Node interpreter and the script, respectively.
+
+Using the 'yards' package simplifies CLI option handling in Node.js.
+- Install the 'yards' package with npm to manage command line arguments easily.
+- Convert options into key-value pairs by importing 'yards' and utilizing 'process.argv'.
+
+Demonstrating CLI options for retrieving Pokémon data using Node.js.
+- The CLI allows retrieval of Pokémon values, such as Charmander, demonstrating its functionality.
+- By using different Pokémon options like Mew, the CLI shows varied outputs, confirming its expected behavior.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 60 - Interactive CLI Tools](https://www.youtube.com/watch?v=sJdqdGxRbXY)
+
+Creating an Interactive CLI Tool with Node.js Using Inquirer for Pokémon Name Input
+
+Enhancing CLI tools with interactive prompts for user input.
+- Previous video focused on adding command line options to the basic CLI tool.
+- This video aims to create an interactive CLI that prompts users for Pokémon names directly.
+
+Implement user prompts in CLI with Inquirer package.
+- Comment out unused YX package code to simplify the script for user input.
+- Install the Inquirer package via npm to enable interactive command line prompts.
+
+Installing Inquirer for interactive CLI tools using CommonJS.
+- Install Inquirer version 8 to ensure compatibility with CommonJS module format.
+- Import the Inquirer package in index.js using 'require' to utilize its functionality.
+
+Introduction to using Inquirer for interactive CLI prompts.
+- The prompt module is created using Inquirer to facilitate user interaction.
+- Questions are passed as an array of objects to the prompt function.
+
+Creating an interactive CLI tool to fetch Pokémon moves.
+- Users input a Pokémon name to receive its first five moves.
+- The input is processed using promises and arrow functions for efficient handling.
+
+Creating an interactive CLI to display Pokémon moves.
+- The 'printFiveMoves' function is invoked to display moves based on user input.
+- The CLI prompts users to enter a Pokémon name for interactive engagement.
+
+Overview of building interactive CLI tools in Node.js.
+- CLI stands for command line interface, allowing programs to be run from the terminal.
+- Dynamic behavior is achieved by passing options, and interactivity enhances user engagement with the CLI tool.
+
+Overview of CLI tool development with Node.js and npm.
+- CLI tools enhance productivity and efficiency in daily workflows.
+- Exploring CLI development can lead to creating custom tools tailored to specific tasks.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 61 - Cluster Module](https://www.youtube.com/watch?v=SHR-KmfRIsU)
+
+Understanding the Node.js Cluster Module for Improved Performance and CPU Utilization in Applications.
+
+Learn about Node.js's cluster module for improved performance.
+- Node.js is single-threaded, limiting performance on CPU-intensive tasks across multiple cores.
+- The cluster module allows creation of child processes (workers) that share the same server port, enhancing application scalability.
+
+Demonstrating a simple HTTP server with different response times.
+- The HTTP server handles two routes: a quick home page response and a slow page simulating CPU-intensive tasks.
+- The server listens on Port 8000 and logs a message when it's ready, demonstrating its functionality in a browser.
+
+Node.js single-thread blocking causes slow response times.
+- Loading the slow page blocks other requests, significantly delaying the home page's response time.
+- Utilizing the cluster module can resolve blocking issues by allowing multiple threads to handle requests simultaneously.
+
+The Cluster module manages worker processes in Node.js applications.
+- The cluster master spawns new worker instances to handle requests but does not execute application code itself.
+- Each worker has its own event loop and memory, allowing for efficient workload distribution without blocking incoming requests.
+
+Master creates workers to handle requests using Node.js clustering.
+- The master process is responsible for spawning worker processes using the 'fork' method from the cluster module.
+- Workers execute the same code as in a non-clustered setup, allowing for concurrent request handling.
+
+Using the Cluster module optimizes Node.js performance with multiple worker threads.
+- Utilizing multiple workers allows concurrent handling of requests, improving response times for slow operations.
+- Creating too many workers beyond CPU core limits can lead to overhead and decreased performance.
+
+Utilize PM2 for optimal Node.js clustering on your machine.
+- Determine the maximum number of worker processes by checking your CPU cores using OS module.
+- PM2 simplifies cluster management, automatically optimizing the number of workers for performance.
+
+Using PM2 to manage Node.js clustering for optimal performance.
+- Run 'pm2 start cluster.js -i 0' to automatically select the best number of workers.
+- Monitor worker status and manage them easily to enhance application performance without blocking requests.
+
+
+
+
+
+
+
+
+Summary for [Node.js Tutorial - 62 - Worker Threads Module](https://www.youtube.com/watch?v=Wm4MZwfEZd4)
+
+Understanding the Worker Threads Module in Node.js for Non-Blocking Parallel Execution and Performance Improvement
+
+Introduction to Worker Threads module for parallel execution in Node.js.
+- Worker Threads module allows JavaScript code to run in separate child processes, improving performance.
+- Unlike the Cluster module, Worker Threads enables multi-threading within a single Node.js instance.
+
+Worker Threads module enables multi-threading in Node.js.
+- Allows running multiple application threads in a single Node.js instance without process isolation.
+- Is useful when separate V8 instances are not required, providing efficiency with shared memory and event loop.
+
+Implementing two distinct routes in Node.js with performance considerations.
+- A homepage route is defined alongside a slower route to demonstrate asynchronous handling.
+- The variable 'J' is used to track iterations in a loop, influencing the response after processing.
+
+Worker threads improve performance by handling slow tasks asynchronously.
+- When multiple requests are made, the main page experiences delays as it waits for slow tasks to complete.
+- The worker threads module allows these slow operations to run in parallel, enhancing overall application performance.
+
+Introduction to using the Worker Threads module in Node.js.
+- Destructuring the Worker Constructor allows for easier instantiation of worker threads.
+- Creating a worker thread involves specifying a file path, which facilitates offloading long operations.
+
+Sending data from worker threads to the main thread in Node.js.
+- The worker threads module allows communication between worker threads and the main thread using the parent Port object.
+- In the main thread, events can be listened to using the 'message' event to receive data sent from the worker.
+
+Worker threads improve performance by preventing main thread blocking.
+- Restarting the server demonstrates the non-blocking behavior of worker threads.
+- Displaying the variable J shows communication between worker and main threads, enhancing efficiency.
+
+Worker Threads enable parallel code execution outside the main thread.
+- They are useful for tasks like resizing images, processing videos, or encrypting files that require heavy computation.
+- Further exploration of the Worker Threads module is encouraged by reviewing the official documentation for advanced features.
+
+
+
+
+
+
+
+
